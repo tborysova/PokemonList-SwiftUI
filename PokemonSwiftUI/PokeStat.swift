@@ -30,5 +30,7 @@ struct PokeStat: View {
 struct PokeStat_Previews: PreviewProvider {
     static var previews: some View {
         PokeStat(statName: "", statValue: "", statSymbol: "")
+        
+        var tuple = (x: 10, y: 20)
     }
 }
