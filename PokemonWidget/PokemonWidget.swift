@@ -67,7 +67,7 @@ struct PokemonWidget: Widget {
             PokemonWidgetEntryView(entry: entry)
         }
         .configurationDisplayName("My Widget")
-        .description("This is an example widget.")
+        .description("This is an example.")
     }
 }
 
