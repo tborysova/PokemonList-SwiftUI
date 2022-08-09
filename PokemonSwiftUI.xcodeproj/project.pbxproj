@@ -24,6 +24,17 @@
 		46A2C90E28A2AB4000E8B3F8 /* PokemonWidgetExtension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 46A2C8FD28A2AB3B00E8B3F8 /* PokemonWidgetExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		46A2C91328A2ACE600E8B3F8 /* Pokemon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46A2C8F528A15A8E00E8B3F8 /* Pokemon.swift */; };
 		46A2C91428A2AE2D00E8B3F8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 46A2C8E5289D3C5800E8B3F8 /* Assets.xcassets */; };
+		46A2C91C28A2C05C00E8B3F8 /* PokemonClipApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46A2C91B28A2C05C00E8B3F8 /* PokemonClipApp.swift */; };
+		46A2C91E28A2C05C00E8B3F8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46A2C91D28A2C05C00E8B3F8 /* ContentView.swift */; };
+		46A2C92028A2C06000E8B3F8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 46A2C91F28A2C06000E8B3F8 /* Assets.xcassets */; };
+		46A2C92328A2C06000E8B3F8 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 46A2C92228A2C06000E8B3F8 /* Preview Assets.xcassets */; };
+		46A2C92828A2C06000E8B3F8 /* PokemonClip.app in Embed App Clips */ = {isa = PBXBuildFile; fileRef = 46A2C91928A2C05C00E8B3F8 /* PokemonClip.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		46A2C92D28A2C1BC00E8B3F8 /* Pokemon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46A2C8F528A15A8E00E8B3F8 /* Pokemon.swift */; };
+		46A2C92E28A2C22F00E8B3F8 /* PokemonRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46A2C8F328A1580900E8B3F8 /* PokemonRow.swift */; };
+		46A2C92F28A2C23200E8B3F8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 46A2C8E5289D3C5800E8B3F8 /* Assets.xcassets */; };
+		46A2C93028A2C27200E8B3F8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 46A2C91F28A2C06000E8B3F8 /* Assets.xcassets */; };
+		46A2C93128A2C27200E8B3F8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 46A2C91F28A2C06000E8B3F8 /* Assets.xcassets */; };
+		46A2C93228A2C29500E8B3F8 /* PokemonRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46A2C8F328A1580900E8B3F8 /* PokemonRow.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,6 +44,13 @@
 			proxyType = 1;
 			remoteGlobalIDString = 46A2C8FC28A2AB3B00E8B3F8;
 			remoteInfo = PokemonWidgetExtension;
+		};
+		46A2C92628A2C06000E8B3F8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 46A2C8D6289D3C5600E8B3F8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 46A2C91828A2C05C00E8B3F8;
+			remoteInfo = PokemonClip;
 		};
 /* End PBXContainerItemProxy section */
 
@@ -46,6 +64,17 @@
 				46A2C90E28A2AB4000E8B3F8 /* PokemonWidgetExtension.appex in Embed App Extensions */,
 			);
 			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		46A2C92C28A2C06000E8B3F8 /* Embed App Clips */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/AppClips";
+			dstSubfolderSpec = 16;
+			files = (
+				46A2C92828A2C06000E8B3F8 /* PokemonClip.app in Embed App Clips */,
+			);
+			name = "Embed App Clips";
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXCopyFilesBuildPhase section */
@@ -67,6 +96,13 @@
 		46A2C90628A2AB3B00E8B3F8 /* PokemonWidget.intentdefinition */ = {isa = PBXFileReference; lastKnownFileType = file.intentdefinition; path = PokemonWidget.intentdefinition; sourceTree = "<group>"; };
 		46A2C90728A2AB4000E8B3F8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		46A2C90928A2AB4000E8B3F8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		46A2C91928A2C05C00E8B3F8 /* PokemonClip.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PokemonClip.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		46A2C91B28A2C05C00E8B3F8 /* PokemonClipApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PokemonClipApp.swift; sourceTree = "<group>"; };
+		46A2C91D28A2C05C00E8B3F8 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		46A2C91F28A2C06000E8B3F8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		46A2C92228A2C06000E8B3F8 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		46A2C92428A2C06000E8B3F8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		46A2C92528A2C06000E8B3F8 /* PokemonClip.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = PokemonClip.entitlements; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +122,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		46A2C91628A2C05C00E8B3F8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -94,6 +137,7 @@
 			children = (
 				46A2C8E0289D3C5600E8B3F8 /* PokemonSwiftUI */,
 				46A2C90328A2AB3B00E8B3F8 /* PokemonWidget */,
+				46A2C91A28A2C05C00E8B3F8 /* PokemonClip */,
 				46A2C8FE28A2AB3B00E8B3F8 /* Frameworks */,
 				46A2C8DF289D3C5600E8B3F8 /* Products */,
 			);
@@ -104,6 +148,7 @@
 			children = (
 				46A2C8DE289D3C5600E8B3F8 /* PokemonSwiftUI.app */,
 				46A2C8FD28A2AB3B00E8B3F8 /* PokemonWidgetExtension.appex */,
+				46A2C91928A2C05C00E8B3F8 /* PokemonClip.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -151,6 +196,27 @@
 			path = PokemonWidget;
 			sourceTree = "<group>";
 		};
+		46A2C91A28A2C05C00E8B3F8 /* PokemonClip */ = {
+			isa = PBXGroup;
+			children = (
+				46A2C91B28A2C05C00E8B3F8 /* PokemonClipApp.swift */,
+				46A2C91D28A2C05C00E8B3F8 /* ContentView.swift */,
+				46A2C91F28A2C06000E8B3F8 /* Assets.xcassets */,
+				46A2C92428A2C06000E8B3F8 /* Info.plist */,
+				46A2C92528A2C06000E8B3F8 /* PokemonClip.entitlements */,
+				46A2C92128A2C06000E8B3F8 /* Preview Content */,
+			);
+			path = PokemonClip;
+			sourceTree = "<group>";
+		};
+		46A2C92128A2C06000E8B3F8 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				46A2C92228A2C06000E8B3F8 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -162,11 +228,13 @@
 				46A2C8DB289D3C5600E8B3F8 /* Frameworks */,
 				46A2C8DC289D3C5600E8B3F8 /* Resources */,
 				46A2C91228A2AB4000E8B3F8 /* Embed App Extensions */,
+				46A2C92C28A2C06000E8B3F8 /* Embed App Clips */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 				46A2C90D28A2AB4000E8B3F8 /* PBXTargetDependency */,
+				46A2C92728A2C06000E8B3F8 /* PBXTargetDependency */,
 			);
 			name = PokemonSwiftUI;
 			productName = PokemonSwiftUI;
@@ -190,6 +258,23 @@
 			productReference = 46A2C8FD28A2AB3B00E8B3F8 /* PokemonWidgetExtension.appex */;
 			productType = "com.apple.product-type.app-extension";
 		};
+		46A2C91828A2C05C00E8B3F8 /* PokemonClip */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 46A2C92928A2C06000E8B3F8 /* Build configuration list for PBXNativeTarget "PokemonClip" */;
+			buildPhases = (
+				46A2C91528A2C05C00E8B3F8 /* Sources */,
+				46A2C91628A2C05C00E8B3F8 /* Frameworks */,
+				46A2C91728A2C05C00E8B3F8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PokemonClip;
+			productName = PokemonClip;
+			productReference = 46A2C91928A2C05C00E8B3F8 /* PokemonClip.app */;
+			productType = "com.apple.product-type.application.on-demand-install-capable";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -204,6 +289,9 @@
 						CreatedOnToolsVersion = 13.2.1;
 					};
 					46A2C8FC28A2AB3B00E8B3F8 = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					46A2C91828A2C05C00E8B3F8 = {
 						CreatedOnToolsVersion = 13.2.1;
 					};
 				};
@@ -223,6 +311,7 @@
 			targets = (
 				46A2C8DD289D3C5600E8B3F8 /* PokemonSwiftUI */,
 				46A2C8FC28A2AB3B00E8B3F8 /* PokemonWidgetExtension */,
+				46A2C91828A2C05C00E8B3F8 /* PokemonClip */,
 			);
 		};
 /* End PBXProject section */
@@ -233,6 +322,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				46A2C8E9289D3C5800E8B3F8 /* Preview Assets.xcassets in Resources */,
+				46A2C93128A2C27200E8B3F8 /* Assets.xcassets in Resources */,
 				46A2C8E6289D3C5800E8B3F8 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -242,7 +332,18 @@
 			buildActionMask = 2147483647;
 			files = (
 				46A2C91428A2AE2D00E8B3F8 /* Assets.xcassets in Resources */,
+				46A2C93028A2C27200E8B3F8 /* Assets.xcassets in Resources */,
 				46A2C90828A2AB4000E8B3F8 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		46A2C91728A2C05C00E8B3F8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				46A2C92328A2C06000E8B3F8 /* Preview Assets.xcassets in Resources */,
+				46A2C92F28A2C23200E8B3F8 /* Assets.xcassets in Resources */,
+				46A2C92028A2C06000E8B3F8 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -267,9 +368,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				46A2C93228A2C29500E8B3F8 /* PokemonRow.swift in Sources */,
 				46A2C90A28A2AB4000E8B3F8 /* PokemonWidget.intentdefinition in Sources */,
 				46A2C90528A2AB3B00E8B3F8 /* PokemonWidget.swift in Sources */,
 				46A2C91328A2ACE600E8B3F8 /* Pokemon.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		46A2C91528A2C05C00E8B3F8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				46A2C92E28A2C22F00E8B3F8 /* PokemonRow.swift in Sources */,
+				46A2C91E28A2C05C00E8B3F8 /* ContentView.swift in Sources */,
+				46A2C91C28A2C05C00E8B3F8 /* PokemonClipApp.swift in Sources */,
+				46A2C92D28A2C1BC00E8B3F8 /* Pokemon.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -280,6 +393,11 @@
 			isa = PBXTargetDependency;
 			target = 46A2C8FC28A2AB3B00E8B3F8 /* PokemonWidgetExtension */;
 			targetProxy = 46A2C90C28A2AB4000E8B3F8 /* PBXContainerItemProxy */;
+		};
+		46A2C92728A2C06000E8B3F8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 46A2C91828A2C05C00E8B3F8 /* PokemonClip */;
+			targetProxy = 46A2C92628A2C06000E8B3F8 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -514,6 +632,70 @@
 			};
 			name = Release;
 		};
+		46A2C92A28A2C06000E8B3F8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = PokemonClip/PokemonClip.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"PokemonClip/Preview Content\"";
+				DEVELOPMENT_TEAM = DD6NR6394F;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = PokemonClip/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = PokemonSwiftUI;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tetiana.PokemonSwiftUI.Clip;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		46A2C92B28A2C06000E8B3F8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = PokemonClip/PokemonClip.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"PokemonClip/Preview Content\"";
+				DEVELOPMENT_TEAM = DD6NR6394F;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = PokemonClip/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = PokemonSwiftUI;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tetiana.PokemonSwiftUI.Clip;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -540,6 +722,15 @@
 			buildConfigurations = (
 				46A2C91028A2AB4000E8B3F8 /* Debug */,
 				46A2C91128A2AB4000E8B3F8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		46A2C92928A2C06000E8B3F8 /* Build configuration list for PBXNativeTarget "PokemonClip" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				46A2C92A28A2C06000E8B3F8 /* Debug */,
+				46A2C92B28A2C06000E8B3F8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
